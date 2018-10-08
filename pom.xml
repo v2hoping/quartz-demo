@@ -10,6 +10,9 @@
     <version>1.0-SNAPSHOT</version>
     <modules>
         <module>sample</module>
+        <module>jobDataMap</module>
+        <module>calendar</module>
+        <module>crontrigger</module>
     </modules>
 
     <name>quartz-demo</name>

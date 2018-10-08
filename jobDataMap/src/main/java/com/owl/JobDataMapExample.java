@@ -4,11 +4,12 @@ import org.quartz.*;
 import org.quartz.impl.StdSchedulerFactory;
 
 /**
- * Created by houping wang on 2018/9/11
+ * Created by houping wang on 2018/9/13
  *
  * @author houping wang
+ * job DataMap使用的例子.
  */
-public class SampleJobExample {
+public class JobDataMapExample {
 
     public static void main(String[] args) {
 
@@ -17,7 +18,10 @@ public class SampleJobExample {
             simpleScheduler.start();
             //job
             JobDetail job = JobBuilder
-                    .newJob(HelloJob.class)
+                    .newJob(DataJob.class)
+                    .withIdentity("myJob", "group1") // name "myJob", group "group1"
+                    .usingJobData("jobSays", "Hello World!")
+                    .usingJobData("myFloatValue", 3.141f)
                     .build();
             //trigger
             SimpleTrigger simpleTrigger = TriggerBuilder
