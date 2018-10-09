@@ -13,6 +13,7 @@
         <module>jobDataMap</module>
         <module>calendar</module>
         <module>crontrigger</module>
+      <module>listeners</module>
     </modules>
 
     <name>quartz-demo</name>

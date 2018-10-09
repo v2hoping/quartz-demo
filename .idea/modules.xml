@@ -5,6 +5,7 @@
       <module fileurl="file://$PROJECT_DIR$/calendar/calendar.iml" filepath="$PROJECT_DIR$/calendar/calendar.iml" />
       <module fileurl="file://$PROJECT_DIR$/crontrigger/crontrigger.iml" filepath="$PROJECT_DIR$/crontrigger/crontrigger.iml" />
       <module fileurl="file://$PROJECT_DIR$/jobDataMap/jobDataMap.iml" filepath="$PROJECT_DIR$/jobDataMap/jobDataMap.iml" />
+      <module fileurl="file://$PROJECT_DIR$/listeners/listeners.iml" filepath="$PROJECT_DIR$/listeners/listeners.iml" />
       <module fileurl="file://$PROJECT_DIR$/quartz-demo.iml" filepath="$PROJECT_DIR$/quartz-demo.iml" />
       <module fileurl="file://$PROJECT_DIR$/sample/sample.iml" filepath="$PROJECT_DIR$/sample/sample.iml" />
     </modules>

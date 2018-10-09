@@ -9,6 +9,7 @@
         <module name="calendar" />
         <module name="crontrigger" />
         <module name="jobDataMap" />
+        <module name="listeners" />
         <module name="sample" />
       </profile>
     </annotationProcessing>
@@ -16,6 +17,7 @@
       <module name="calendar" target="1.7" />
       <module name="crontrigger" target="1.7" />
       <module name="jobDataMap" target="1.7" />
+      <module name="listeners" target="1.7" />
       <module name="quartz-demo" target="1.7" />
       <module name="sample" target="1.7" />
     </bytecodeTargetLevel>
